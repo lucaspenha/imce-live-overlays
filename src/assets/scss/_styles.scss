@@ -1,0 +1,163 @@
+html,body{
+    height: 100%;
+}
+
+body{
+    // background: url(../img/imagem_fundo.png) center center no-repeat;
+    background: transparent;
+    background-size: 110%;
+}
+
+.content{
+    background-color: rgba($color: white, $alpha: 0.93);
+    backdrop-filter: blur(5px);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.countdown{
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 100px;
+    text-align: center;
+    color:#8D8D8D;
+    padding:95px 0 65px;
+
+    &.wait{
+        font-family: 'Kumbh Sans', sans-serif;
+        font-size: 30px;
+        letter-spacing: -2px;
+    }
+    
+}
+
+#live-icon{
+    circle{
+        -webkit-animation: fadein 2s infinite; /* Safari, Chrome and Opera > 12.1 */
+        -moz-animation: fadein 2s infinite; /* Firefox < 16 */
+         -ms-animation: fadein 2s infinite; /* Internet Explorer */
+          -o-animation: fadein 2s infinite; /* Opera < 12.1 */
+             animation: fadein 2s infinite;
+    }
+}
+@keyframes fadein {
+    0% { opacity: 0; }
+    50%   { opacity: 1; }
+    100%   { opacity: 0; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    0% { opacity: 0; }
+    50%   { opacity: 1; }
+    100%   { opacity: 0; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    0% { opacity: 0; }
+    50%   { opacity: 1; }
+    100%   { opacity: 0; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    0% { opacity: 0; }
+    50%   { opacity: 1; }
+    100%   { opacity: 0; }
+}
+
+.close-live{
+
+    .logo{
+        margin-bottom: 181px;
+    }
+
+    .title{
+        color:#959595;
+        font-family: 'Kumbh Sans', sans-serif;
+        font-weight: bold;
+        font-size: 32px;
+        margin-top: 32px;
+    }
+    
+}
+
+.lower-thirds{
+    
+    font-family: 'Kumbh Sans', sans-serif;
+
+    .box-lower-thirds{
+
+        height: 104px;
+        position: fixed;
+        bottom: 40px;
+        left: 0;
+        display: flex;
+
+        b{
+            font-weight: bold;
+        }
+
+        .brand{
+            background-color: #fff;
+            width: 104px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .caption-1{
+            background-color:$color-red;
+            color:white;
+            font-size: 24px;
+            font-weight: 300;
+            padding: 0 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-transform: uppercase;
+        }
+
+        .caption-2{
+            background-color: white;
+            padding: 0 40px;
+            font-size: 24px;
+            font-weight: 300;
+            padding: 0 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            transition: all 1s ease-in-out;
+        }
+        
+    }
+
+}
+
+.contribution{
+
+    img{
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 40px;
+        max-width: 100%;
+    }
+       
+}
+
+.praise{
+    .box-lower-thirds{
+        right: 0;
+        left: auto;
+        bottom: auto;
+        top: 40px;
+    }
+}
+.fadeOut{
+    opacity: 0;
+    visibility: hidden;
+}
