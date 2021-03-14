@@ -16,6 +16,35 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    .column2{
+
+        width:100%;
+
+        display: flex;
+        
+        .left{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    
+        .right{
+            width:50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .tema{
+            max-width: 100%;
+        }
+    }
+
+    
 }
 
 .countdown{

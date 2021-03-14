@@ -56,6 +56,23 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column; }
+  .content .column2 {
+    width: 100%;
+    display: flex; }
+    .content .column2 .left {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; }
+    .content .column2 .right {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; }
+    .content .column2 .tema {
+      max-width: 100%; }
 
 .countdown {
   font-family: 'ZCOOL QingKe HuangYou', cursive;
