@@ -8,7 +8,7 @@ function countdown(){
 
     // Set the date we're counting down to
     var countDownDate = new Date();
-    countDownDate.setHours(18, 00, 00, 0) 
+    countDownDate.setHours(19, 00, 00, 0) 
     var dayOfWeek = countDownDate.getDay();
     if(dayOfWeek != 0){
         countDownDate = countDownDate.addDays(7-dayOfWeek);
