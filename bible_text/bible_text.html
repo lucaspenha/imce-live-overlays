@@ -1,0 +1,46 @@
+<html lang="pt-br"><head>
+    <title>Holyrics - Receber Transmissão (Texto)</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="utilities.css">
+    <link rel="stylesheet" type="text/css" href="custom-css2.css">
+    <script src="jquery-1.8.3.js"></script>
+    <script src="holyrics-plugin-json-stream-1.0.4.js"></script>
+</head>
+<body onload="setTimeout('bodyOnload()', 100)" onresize="updateOnResize()">
+    <div id="general" class="screen-custom" ondblclick="fullscreenToggle()">
+        <div id="display" class="text-custom" style="color: rgb(59, 59, 59); text-align: center; height: 100%;">
+            <div id="visible" style="font-family: Arial; padding-top: 27.5px; padding-left: 2%; padding-right: 2%; height: 1092px; font-size: 79.2px;">
+            <b>
+                <span class="header bible-header-custom" style="font-size: 70%">
+                    <desc>Ag 1:12</desc>
+                    <br>Almeida Revista e Atualizada
+                </span>
+                <span class="bible_slide">
+                    <ctt>
+                        Então, Zorobabel, filho de Salatiel, e Josué, filho de Jozadaque, o sumo sacerdote, e todo o resto do povo atenderam à voz do SENHOR, seu Deus, e às palavras do profeta Ageu, as quais o SENHOR, seu Deus, o tinha mandado dizer; e o povo temeu diante do SENHOR.
+                    </ctt>
+                    <span style="visibility:hidden;display:none" id="text-force-update_0"></span></span></b></div><div id="invisible" style="font-family: Arial; font-size: 79.2px;"><b><span class="header bible-header-custom" style="font-size: 70%"><desc>Ag 1:12</desc><br>Almeida Revista e Atualizada</span><span class="bible_slide "><ctt>Então, Zorobabel, filho de Salatiel, e Josué, filho de Jozadaque, o sumo sacerdote, e todo o resto do povo atenderam à voz do SENHOR, seu Deus, e às palavras do profeta Ageu, as quais o SENHOR, seu Deus, o tinha mandado dizer; e o povo temeu diante do SENHOR.</ctt><span style="visibility:hidden;display:none" id="text-force-update_0"></span></span></b></div></div>
+        <div class="marquee alert-custom" id="alert" style="font-family: Arial; color: rgb(250, 250, 250); background-color: rgb(0, 0, 0); font-size: 1px; line-height: 0px; height: 0%; border-top: 0px solid black; top: 85%;"><span id="animation" style="animation-name: none; padding-left: 0%;"></span></div>
+        <div id="alert-invisible" class="alert-custom" style="font-size: 1px;"><span style="white-space:nowrap"></span></div>
+        <div id="slide_info" class="slide_info">
+            <div id="music_title" class="music_title"></div>
+            <div id="music_artist" class="music_artist"></div>
+            <div id="music_author" class="music_author"></div>
+            <div id="text_title" class="text_title"></div>
+        </div>
+    </div>
+    <div id="snackbar"></div>
+    <div id="modal" class="modal"><div class="modal-content"><span class="modal-close">×</span><p class="modal-text"></p><div class="modal-buttons"><button class="modal-button-ok"></button><button class="modal-button-cancel"></button></div></div></div>
+    <script type="text/javascript" src="holyrics-plugin-utils-1.0.1.js"></script>
+    <script type="text/javascript">
+        htmlType = 1;
+        cssHash = '0';
+    </script>
+    <style type="text/css">
+
+
+        
+    </style>
+</body>
+</html>
