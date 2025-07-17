@@ -1,0 +1,32 @@
+.bible-header-custom{
+	font-size: 12px !important;
+	display: block;
+	max-width: 200px;
+	text-align: left;
+	background-color: #BF0811;
+	padding:14px 16px;
+	margin-bottom: -10px !important;
+	position: relative;
+	z-index: 1;
+	margin-left: 10px;
+}
+.bible-header-custom desc{
+	font-size:22px;
+}
+.bible_slide{
+	background: white;
+	padding:20px 30px;
+	color:black;
+	display: block;
+	font-size: 20px;
+	text-align: left;
+}
+
+#visible{
+	height: auto !important;
+	position: fixed;
+	bottom: 20px;
+	width: 100%;
+	box-sizing: border-box;
+	padding-top: 0 !important;
+}
